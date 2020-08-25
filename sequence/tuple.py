@@ -7,7 +7,7 @@ print(tuple1[5:])
 
 # tuple1[2] = 10 # 报错
 
-temp = (10, )
+temp = (10,)
 
 print(temp)
 
@@ -16,5 +16,10 @@ print(type(temp))
 
 print(8 * (8))
 
-print(8 * (8, ))
+print(8 * (8,))
 
+temp = ('zhanlong', 'jinlicong', 'zhanziqian')  # 更改元组数据
+
+temp = temp[:1] + ('xiyangyang',) + temp[1:]
+
+print(temp)
